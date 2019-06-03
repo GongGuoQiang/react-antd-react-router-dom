@@ -1,0 +1,22 @@
+@import '~antd/dist/antd.css';
+
+.red{color: red;}
+nav{background: #000000;overflow: hidden;}
+li{list-style: none;margin-left: 20px;padding: 10px;}
+*{margin: 0;padding: 0}
+.left{float: left;}
+.right{float: right;}
+.user .left a{display: block;text-align: center;line-height: 40px;color: #000;text-decoration: none;}
+.user .left{width: 300px;background: #eee;height: 500px;padding-top: 20px;}
+.user .right{height: 500px;flex: 1}
+.user .content{display: flex;}
+.user .left a.active{background: #000;color: #fff;}     
+.app .logo {
+    width: 120px;
+    height: 31px;
+    background:url('../img/1.png');
+    margin: 16px 28px 16px 0;
+    float: left;
+  }              
+  .ant-layout .ant-layout{padding: 0!important;}
+  .ant-layout .ant-layout-content{padding: 0!important;}
