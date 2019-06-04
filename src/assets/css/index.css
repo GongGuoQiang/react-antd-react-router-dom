@@ -20,3 +20,17 @@ li{list-style: none;margin-left: 20px;padding: 10px;}
   }              
   .ant-layout .ant-layout{padding: 0!important;}
   .ant-layout .ant-layout-content{padding: 0!important;}
+  .ant-carousel .slick-slide {
+    text-align: center;
+    height: 60vh;
+    line-height: 50vh;
+    background: #364d79;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .ant-carousel .slick-slide img {
+    width: 100%;
+    height: 60vh;
+  }
